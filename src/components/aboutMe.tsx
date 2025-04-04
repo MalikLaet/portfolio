@@ -36,7 +36,7 @@ export default function AboutMe() {
       <div className="flex flex-col items-start justify-center text-white p-12 pb-48 gap-4">
       <div className="flex flex-col items-start  text-white p-4 pt-12 gap-2">
         <p className="text-4xl">Olá</p>
-        <p className="text-4xl">Me chamo malik</p>
+        <p className="text-4xl">Me chamo Malik</p>
         <p className="text-4xl">Desenvolvedor FullStack</p>
       </div>
       <div
