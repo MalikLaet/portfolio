@@ -1,5 +1,6 @@
 import email from "../../public/icon-mail.svg"
 import loc from "../../public/icon-map-pin.svg"
+import portfolioImagem from "../../public/Profilephoto.svg"
 export default function AboutMe() {
   return (
     <div className="flex flex-row items-center justify-center pt-24 gap-24 ">
@@ -14,7 +15,7 @@ export default function AboutMe() {
     borderBottomRightRadius: "100px",
   }}
 >
-    <img src="/public/Profilephoto.svg" alt="" className="w-24 h-24 items-center" />
+    <img src={portfolioImagem} alt="" className="w-24 h-24 items-center" />
         <h2 className="text-3xl text-center">Malik</h2>
         <p>Desenvolvedor FullStack</p>
         <div className="flex flex-row gap-2 pt-6">
