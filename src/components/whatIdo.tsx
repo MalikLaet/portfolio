@@ -1,3 +1,4 @@
+import imagempc from '../../public/ImagePC.svg';
 
 export default function WhatIdo() {
   return (
@@ -11,7 +12,7 @@ export default function WhatIdo() {
         Além do desenvolvimento, também me interesso por boas práticas de código, otimização de performance <br />
         e novas tecnologias que possam melhorar processos e produtos. <br /> Estou sempre aberto a novas oportunidades, desafios e colaborações!</p>
         </div>
-        <img src="/public/ImagePC.svg" alt="imagem de uma pessoa mexendo no computador programando" className="w-96 h-96"/>
+        <img src={imagempc} alt="imagem de uma pessoa mexendo no computador programando" className="w-96 h-96"/>
     </div>
   ) 
 }
