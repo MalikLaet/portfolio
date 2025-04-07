@@ -1,4 +1,5 @@
 import email from "../../public/icon-mail.svg"
+import loc from "../../public/icon-map-pin.svg"
 export default function AboutMe() {
   return (
     <div className="flex flex-row items-center justify-center pt-24 gap-24 ">
@@ -21,7 +22,7 @@ export default function AboutMe() {
           <p>isklikma@gmail.com</p>
         </div>
         <div className="flex flex-row gap-2 pt-2">
-          <img src="/public/icon-map-pin.svg" alt="localização" />
+          <img src={loc} alt="localização" />
           <p>Brasil</p>
         </div>
         <a
