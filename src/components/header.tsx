@@ -15,12 +15,11 @@ export default function Header() {
 
       {/* GitHub */}
       <a href="https://github.com/maliklaet" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center gap-2 justify-center hover:opacity-80 hover:scale-105 transition duration-200 ease-in-out">
-        <img src="/public/github.svg" alt="github" className="w-8 h-8" />
+        <img src={"/public/github.svg"} alt="github" className="w-8 h-8" />
         <p className="text-xl">Github</p>
       </a>
-
-      {/* WhatsApp
-      <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center gap-2 justify-center hover:opacity-80 transition">
+{/* 
+      <a href="https://wa.me/5511999038780" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center gap-2 justify-center hover:opacity-80 transition">
         <img src="/public/icon-whatsapp.svg" alt="whatsapp" className="w-8 h-8" />
         <p className="text-xl">WhatsApp</p>
       </a>  */}
