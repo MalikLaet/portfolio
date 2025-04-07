@@ -1,3 +1,4 @@
+import github from "../../public/github.svg"
 
 export default function Header() {
   return (
@@ -8,14 +9,14 @@ export default function Header() {
       </a>
 
       {/* Instagram */}
-      <a href="https://www.instagram.com/maliklaet" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center gap-2 justify-center hover:opacity-80 hover:scale-105 transition duration-200 ease-in-out">
-        <img src="/public/icon-instagram.svg" alt="instagram" className="w-8 h-8" />
+      {/* <a href="https://www.instagram.com/maliklaet" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center gap-2 justify-center hover:opacity-80 hover:scale-105 transition duration-200 ease-in-out">
+        <img src={email} alt="instagram" className="w-8 h-8" />
         <p className="text-xl">Instagram</p>
-      </a>
+      </a> */}
 
       {/* GitHub */}
       <a href="https://github.com/maliklaet" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center gap-2 justify-center hover:opacity-80 hover:scale-105 transition duration-200 ease-in-out">
-        <img src={"/public/github.svg"} alt="github" className="w-8 h-8" />
+        <img src={github} alt="github" className="w-8 h-8" />
         <p className="text-xl">Github</p>
       </a>
 {/* 
