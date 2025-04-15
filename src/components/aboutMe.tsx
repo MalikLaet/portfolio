@@ -1,7 +1,11 @@
+import { useState } from "react";
 import email from "../../public/icon-mail.svg"
 import loc from "../../public/icon-map-pin.svg"
 import portfolioImagem from "../../public/Profilephoto.svg"
+import { TypeAnimation } from 'react-type-animation';
+
 export default function AboutMe() {
+
   return (
     <div className="flex flex-row items-center justify-center pt-24 gap-24 ">
 <div
@@ -39,8 +43,34 @@ export default function AboutMe() {
       <div className="flex flex-col items-start justify-center text-white p-12 pb-48 gap-4">
       <div className="flex flex-col items-start  text-white p-4 pt-12 gap-2">
         <p className="text-4xl">Olá</p>
-        <p className="text-4xl">Me chamo Malik</p>
-        <p className="text-4xl">Desenvolvedor FullStack</p>
+        <TypeAnimation
+        sequence={[
+          'Me chamo Malik',          
+          2200,         
+        ]}
+        wrapper="p"
+        cursor={false}
+        className="text-3xl"
+      />
+
+      <TypeAnimation
+        sequence={[
+          2500, 
+          'Desenvolvedor FullStack',
+          2000,
+          "",
+        
+        ]}
+        wrapper="p"
+        cursor={false}
+        repeat={Infinity}
+        className="text-xl"
+      />
+      <style>{`
+        .hide-cursor::after {
+          content: '';
+        }
+      `}</style>
       </div>
       <div
         className="flex items-center justify-center text-white py-6 px-12"
