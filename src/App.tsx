@@ -9,13 +9,13 @@ function App() {
   return (
    <div className=''>
     <Header/>
-    <div className="w-[90%] h-[2px] bg-gray-500 mx-auto my-8"></div>
+    <div className="w-full max-w-[90%] h-px bg-gray-500 mx-auto my-6 sm:my-8"></div>
     <AboutMe/>
-    <div className="w-[90%] h-[2px] bg-gray-500 mx-auto my-8"></div>
+    <div className="w-full max-w-[90%] h-px bg-gray-500 mx-auto my-6 sm:my-8"></div>
     <WhatIdo/>
-    <div className="w-[90%] h-[2px] bg-gray-500 mx-auto my-8"></div>
+    <div className="w-full max-w-[90%] h-px bg-gray-500 mx-auto my-6 sm:my-8"></div>
     <Skill/>
-    <div className="w-[90%] h-[2px] bg-gray-500 mx-auto my-8"></div>
+    <div className="w-full max-w-[90%] h-px bg-gray-500 mx-auto my-6 sm:my-8"></div>
     <Projects/>
    </div>
   )
