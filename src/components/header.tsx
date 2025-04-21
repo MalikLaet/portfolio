@@ -1,6 +1,5 @@
 import github from "../../public/github.svg"
 import email from "../../public/icon-mail.svg"
-import insta from "../../public/icon-instagram.svg"
 
 export default function Header() {
   return (
@@ -12,7 +11,7 @@ export default function Header() {
         <img src={email} alt="email" className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
         <p className="text-base sm:text-lg md:text-xl">Email</p>
       </a>
-
+{/* 
       <a
         href="https://www.instagram.com/maliklaet"
         target="_blank"
@@ -21,7 +20,7 @@ export default function Header() {
       >
         <img src={insta} alt="instagram" className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
         <p className="text-base sm:text-lg md:text-xl">Instagram</p>
-      </a>
+      </a> */}
 
       <a
         href="https://github.com/maliklaet"

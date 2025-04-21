@@ -2,6 +2,7 @@ import html from "../../public/html-icon.svg"
 import css from "../../public/css-icon.svg"
 import js from "../../public/js-icon.svg"
 import react from "../../public/react.svg"
+import nextJs from "../../public/nextjs.svg"
 import tailwind from "../../public/tailwind.svg"
 
 export default function Skill() {
@@ -44,6 +45,14 @@ export default function Skill() {
             alt="React"
           />
           <p className="text-white text-lg sm:text-xl">React</p>
+        </div>
+        <div className="flex flex-col items-center justify-center gap-4">
+          <img
+            className="w-16 h-16 hover:opacity-80 hover:scale-105 transition duration-200 ease-in-out"
+            src={nextJs}
+            alt="nextJs"
+          />
+          <p className="text-white text-lg sm:text-xl">NextJs</p>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-4">
