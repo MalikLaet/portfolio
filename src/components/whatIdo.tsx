@@ -1,10 +1,16 @@
 import imagempc from '../../public/ImagePC.svg';
+import { motion } from "framer-motion";
 
 export default function WhatIdo() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-white p-6 md:p-12 max-w-[90vw] mx-auto">
       <div className="flex flex-col items-start justify-center gap-6 text-justify">
-        <p className="text-2xl font-semibold">O que eu faço ⚡</p>
+      <motion.div
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: "easeOut" }}
+  viewport={{ once: true }} // anima só na primeira vez que aparece
+>  <p className="text-2xl font-semibold">O que eu faço ⚡</p>
         <p className="text-sm sm:text-base leading-relaxed">
           Atualmente, trabalho com desenvolvimento web, criando aplicações escaláveis e performáticas.
           Minha stack principal inclui React, TypeScript, Java e Spring Boot, e sempre busco utilizar
@@ -15,6 +21,8 @@ export default function WhatIdo() {
           performance e novas tecnologias que possam melhorar processos e produtos.
           Estou sempre aberto a novas oportunidades, desafios e colaborações!
         </p>
+</motion.div>
+      
       </div>
 
       <img
