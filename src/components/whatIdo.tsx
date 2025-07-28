@@ -13,7 +13,7 @@ export default function WhatIdo() {
 >  <p className="text-2xl font-semibold">O que eu faço ⚡</p>
         <p className="text-sm sm:text-base leading-relaxed">
           Atualmente, trabalho com desenvolvimento web, criando aplicações escaláveis e performáticas.
-          Minha stack principal inclui React, TypeScript, Java e Spring Boot, e sempre busco utilizar
+          Minha stack principal inclui React, TypeScript, Python e FastApi, e sempre busco utilizar
           as melhores práticas para garantir código limpo e eficiente. Meu foco é construir produtos
           intuitivos, com ótima experiência para o usuário e arquitetura bem estruturada.
           <br /><br />
