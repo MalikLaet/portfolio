@@ -111,7 +111,7 @@ export default function Projects() {
               </a>
               <button
                 onClick={() => setSelectedProject(null)}
-                className="w-full border border-zinc-700 py-2 rounded hover:bg-red-700 hover:text-black transition"
+                className="w-full border border-zinc-700 py-2 rounded bg-red-700 hover:bg-red-600 hover:text-black transition"
               >
                 Fechar
               </button>
